@@ -14,9 +14,10 @@ Specifically:
  * Looks for ~/.s3cmd
  * Looks for $AWS_ACCESS_KEY_ID/$AWS_SECRET_ACCESS_KEY
 
- Knox
- ----
- Want to cut a couple more lines of code out of your life? Try the knox shortcut.
+
+Knox
+----
+Want to cut a couple more lines of code out of your life? Try the knox shortcut.
 
     awscreds.knox("mybucket", function(err, client){
       console.log(err || client);
